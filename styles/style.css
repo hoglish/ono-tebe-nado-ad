@@ -51,6 +51,7 @@
 .header__logo {
   display: block;
   justify-self: center;
+  transform: translateX(2px);
 }
 
 .header__logo-image {
@@ -61,7 +62,7 @@
 
 .header__address {
   justify-self: end;
-  max-width: 240px;
+  width: 240px;
 }
 
 /* общий блок адреса (шапка и подвал) */
@@ -156,12 +157,15 @@
 }
 
 .cover__description-text {
+  flex: none;
+  width: 637px;
   margin: 0;
   color: #fff;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 16px;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 .bet-button {
