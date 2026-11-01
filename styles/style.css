@@ -167,7 +167,7 @@
    ЛОТЫ (LOTS)
    ========================================= */
 .lots {
-  padding: 120px 24px;
+   padding: 180px 24px 120px 24px;
 }
 
 .lots__heading {
